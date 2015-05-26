@@ -14,18 +14,7 @@
 		14F89EF91B123244001CBFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F89EF81B123244001CBFEE /* main.m */; };
 		14F89EFC1B123244001CBFEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F89EFB1B123244001CBFEE /* ViewController.m */; };
 		14F89EFE1B123244001CBFEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F89EFD1B123244001CBFEE /* Images.xcassets */; };
-		14F89F0D1B123244001CBFEE /* apktool_guiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F89F0C1B123244001CBFEE /* apktool_guiTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		14F89F071B123244001CBFEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14F89EE81B123244001CBFEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14F89EEF1B123244001CBFEE;
-			remoteInfo = "apktool-gui";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		145551971B1475A800ADF03E /* apktool-1.5.2.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "apktool-1.5.2.jar"; sourceTree = "<group>"; };
@@ -39,20 +28,12 @@
 		14F89EFB1B123244001CBFEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14F89EFD1B123244001CBFEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14F89F001B123244001CBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14F89F061B123244001CBFEE /* apktool-guiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apktool-guiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F89F0B1B123244001CBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F89F0C1B123244001CBFEE /* apktool_guiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = apktool_guiTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		14F89EED1B123244001CBFEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14F89F031B123244001CBFEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				14F89EF01B123244001CBFEE /* apktool-gui.app */,
-				14F89F061B123244001CBFEE /* apktool-guiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,24 +131,6 @@
 			productReference = 14F89EF01B123244001CBFEE /* apktool-gui.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14F89F051B123244001CBFEE /* apktool-guiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14F89F131B123244001CBFEE /* Build configuration list for PBXNativeTarget "apktool-guiTests" */;
-			buildPhases = (
-				14F89F021B123244001CBFEE /* Sources */,
-				14F89F031B123244001CBFEE /* Frameworks */,
-				14F89F041B123244001CBFEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14F89F081B123244001CBFEE /* PBXTargetDependency */,
-			);
-			name = "apktool-guiTests";
-			productName = "apktool-guiTests";
-			productReference = 14F89F061B123244001CBFEE /* apktool-guiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,10 +142,6 @@
 				TargetAttributes = {
 					14F89EEF1B123244001CBFEE = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					14F89F051B123244001CBFEE = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 14F89EEF1B123244001CBFEE;
 					};
 				};
 			};
@@ -201,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				14F89EEF1B123244001CBFEE /* apktool-gui */,
-				14F89F051B123244001CBFEE /* apktool-guiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,13 +175,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14F89F041B123244001CBFEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -238,23 +188,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14F89F021B123244001CBFEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14F89F0D1B123244001CBFEE /* apktool_guiTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		14F89F081B123244001CBFEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14F89EEF1B123244001CBFEE /* apktool-gui */;
-			targetProxy = 14F89F071B123244001CBFEE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		14F89EFF1B123244001CBFEE /* Main.storyboard */ = {
@@ -369,42 +303,6 @@
 			};
 			name = Release;
 		};
-		14F89F141B123244001CBFEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "apktool-guiTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apktool-gui.app/Contents/MacOS/apktool-gui";
-			};
-			name = Debug;
-		};
-		14F89F151B123244001CBFEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "apktool-guiTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apktool-gui.app/Contents/MacOS/apktool-gui";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,15 +320,6 @@
 			buildConfigurations = (
 				14F89F111B123244001CBFEE /* Debug */,
 				14F89F121B123244001CBFEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14F89F131B123244001CBFEE /* Build configuration list for PBXNativeTarget "apktool-guiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14F89F141B123244001CBFEE /* Debug */,
-				14F89F151B123244001CBFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
