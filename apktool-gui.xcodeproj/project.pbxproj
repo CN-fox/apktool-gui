@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145551991B14776000ADF03E /* apktool-1.5.2.jar in Resources */ = {isa = PBXBuildFile; fileRef = 145551971B1475A800ADF03E /* apktool-1.5.2.jar */; };
+		1455519A1B14776000ADF03E /* apktool-2.0.0.jar in Resources */ = {isa = PBXBuildFile; fileRef = 145551981B1475A800ADF03E /* apktool-2.0.0.jar */; };
+		1455519B1B14776600ADF03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F89EFF1B123244001CBFEE /* Main.storyboard */; };
+		14F89EF71B123244001CBFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F89EF61B123244001CBFEE /* AppDelegate.m */; };
+		14F89EF91B123244001CBFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F89EF81B123244001CBFEE /* main.m */; };
+		14F89EFC1B123244001CBFEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F89EFB1B123244001CBFEE /* ViewController.m */; };
+		14F89EFE1B123244001CBFEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F89EFD1B123244001CBFEE /* Images.xcassets */; };
+		14F89F0D1B123244001CBFEE /* apktool_guiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F89F0C1B123244001CBFEE /* apktool_guiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F89F071B123244001CBFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F89EE81B123244001CBFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F89EEF1B123244001CBFEE;
+			remoteInfo = "apktool-gui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145551971B1475A800ADF03E /* apktool-1.5.2.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "apktool-1.5.2.jar"; sourceTree = "<group>"; };
+		145551981B1475A800ADF03E /* apktool-2.0.0.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "apktool-2.0.0.jar"; sourceTree = "<group>"; };
+		14F89EF01B123244001CBFEE /* apktool-gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apktool-gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F89EF41B123244001CBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F89EF51B123244001CBFEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14F89EF61B123244001CBFEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14F89EF81B123244001CBFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F89EFA1B123244001CBFEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14F89EFB1B123244001CBFEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14F89EFD1B123244001CBFEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14F89F001B123244001CBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F89F061B123244001CBFEE /* apktool-guiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apktool-guiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F89F0B1B123244001CBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F89F0C1B123244001CBFEE /* apktool_guiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = apktool_guiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F89EED1B123244001CBFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F89F031B123244001CBFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145551961B1475A800ADF03E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				145551971B1475A800ADF03E /* apktool-1.5.2.jar */,
+				145551981B1475A800ADF03E /* apktool-2.0.0.jar */,
+			);
+			name = lib;
+			path = "apktool-gui/lib";
+			sourceTree = "<group>";
+		};
+		14F89EE71B123244001CBFEE = {
+			isa = PBXGroup;
+			children = (
+				145551961B1475A800ADF03E /* lib */,
+				14F89EF21B123244001CBFEE /* apktool-gui */,
+				14F89F091B123244001CBFEE /* apktool-guiTests */,
+				14F89EF11B123244001CBFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F89EF11B123244001CBFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F89EF01B123244001CBFEE /* apktool-gui.app */,
+				14F89F061B123244001CBFEE /* apktool-guiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F89EF21B123244001CBFEE /* apktool-gui */ = {
+			isa = PBXGroup;
+			children = (
+				14F89EF51B123244001CBFEE /* AppDelegate.h */,
+				14F89EF61B123244001CBFEE /* AppDelegate.m */,
+				14F89EFA1B123244001CBFEE /* ViewController.h */,
+				14F89EFB1B123244001CBFEE /* ViewController.m */,
+				14F89EFD1B123244001CBFEE /* Images.xcassets */,
+				14F89EFF1B123244001CBFEE /* Main.storyboard */,
+				14F89EF31B123244001CBFEE /* Supporting Files */,
+			);
+			path = "apktool-gui";
+			sourceTree = "<group>";
+		};
+		14F89EF31B123244001CBFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14F89EF41B123244001CBFEE /* Info.plist */,
+				14F89EF81B123244001CBFEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14F89F091B123244001CBFEE /* apktool-guiTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F89F0C1B123244001CBFEE /* apktool_guiTests.m */,
+				14F89F0A1B123244001CBFEE /* Supporting Files */,
+			);
+			path = "apktool-guiTests";
+			sourceTree = "<group>";
+		};
+		14F89F0A1B123244001CBFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14F89F0B1B123244001CBFEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F89EEF1B123244001CBFEE /* apktool-gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F89F101B123244001CBFEE /* Build configuration list for PBXNativeTarget "apktool-gui" */;
+			buildPhases = (
+				14F89EEC1B123244001CBFEE /* Sources */,
+				14F89EED1B123244001CBFEE /* Frameworks */,
+				14F89EEE1B123244001CBFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "apktool-gui";
+			productName = "apktool-gui";
+			productReference = 14F89EF01B123244001CBFEE /* apktool-gui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F89F051B123244001CBFEE /* apktool-guiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F89F131B123244001CBFEE /* Build configuration list for PBXNativeTarget "apktool-guiTests" */;
+			buildPhases = (
+				14F89F021B123244001CBFEE /* Sources */,
+				14F89F031B123244001CBFEE /* Frameworks */,
+				14F89F041B123244001CBFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F89F081B123244001CBFEE /* PBXTargetDependency */,
+			);
+			name = "apktool-guiTests";
+			productName = "apktool-guiTests";
+			productReference = 14F89F061B123244001CBFEE /* apktool-guiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F89EE81B123244001CBFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = wq;
+				TargetAttributes = {
+					14F89EEF1B123244001CBFEE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					14F89F051B123244001CBFEE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 14F89EEF1B123244001CBFEE;
+					};
+				};
+			};
+			buildConfigurationList = 14F89EEB1B123244001CBFEE /* Build configuration list for PBXProject "apktool-gui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F89EE71B123244001CBFEE;
+			productRefGroup = 14F89EF11B123244001CBFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F89EEF1B123244001CBFEE /* apktool-gui */,
+				14F89F051B123244001CBFEE /* apktool-guiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F89EEE1B123244001CBFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1455519B1B14776600ADF03E /* Main.storyboard in Resources */,
+				145551991B14776000ADF03E /* apktool-1.5.2.jar in Resources */,
+				1455519A1B14776000ADF03E /* apktool-2.0.0.jar in Resources */,
+				14F89EFE1B123244001CBFEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F89F041B123244001CBFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F89EEC1B123244001CBFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F89EFC1B123244001CBFEE /* ViewController.m in Sources */,
+				14F89EF91B123244001CBFEE /* main.m in Sources */,
+				14F89EF71B123244001CBFEE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F89F021B123244001CBFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F89F0D1B123244001CBFEE /* apktool_guiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F89F081B123244001CBFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F89EEF1B123244001CBFEE /* apktool-gui */;
+			targetProxy = 14F89F071B123244001CBFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F89EFF1B123244001CBFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F89F001B123244001CBFEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F89F0E1B123244001CBFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		14F89F0F1B123244001CBFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		14F89F111B123244001CBFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "apktool-gui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14F89F121B123244001CBFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "apktool-gui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14F89F141B123244001CBFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "apktool-guiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apktool-gui.app/Contents/MacOS/apktool-gui";
+			};
+			name = Debug;
+		};
+		14F89F151B123244001CBFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "apktool-guiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apktool-gui.app/Contents/MacOS/apktool-gui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F89EEB1B123244001CBFEE /* Build configuration list for PBXProject "apktool-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F89F0E1B123244001CBFEE /* Debug */,
+				14F89F0F1B123244001CBFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F89F101B123244001CBFEE /* Build configuration list for PBXNativeTarget "apktool-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F89F111B123244001CBFEE /* Debug */,
+				14F89F121B123244001CBFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F89F131B123244001CBFEE /* Build configuration list for PBXNativeTarget "apktool-guiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F89F141B123244001CBFEE /* Debug */,
+				14F89F151B123244001CBFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F89EE81B123244001CBFEE /* Project object */;
+}
