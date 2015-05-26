@@ -107,8 +107,12 @@
             
             NSPipe *pipe = [[NSPipe alloc]init];
             //恩 java的输出是标准错误输出，很科学你妹啊~
-            task.standardError = pipe;
-            
+            if (cell.tag == 0) {
+                task.standardOutput = pipe;
+            }else{
+                task.standardError = pipe;
+            }
+
             [[pipe fileHandleForReading] waitForDataInBackgroundAndNotify];
             //下面摘自 某处。。。
             [[NSNotificationCenter defaultCenter] addObserverForName:NSFileHandleDataAvailableNotification object:[pipe fileHandleForReading] queue:nil usingBlock:^(NSNotification *notification){
